@@ -1,37 +1,49 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
+# Starter
 
-![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
+A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development environment.
 
-## Demo
+Live demo: https://starter.nuxtjs.org
 
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
+## Prerequisites
 
-The main page would look like this:
+Make sure to have `node 8.0+` and `npm 5.0+` installed
 
-![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
+## Installation
 
-The post page would look like this:
+This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
-![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
+``` bash
+$ vue init nuxt-community/starter-template my-project  
+$ cd my-project                     
+# install dependencies
+$ npm install # Or yarn install
+```
 
-## Features
+> Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
 
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Support Emoji
+## Usage
 
-## Installation:
+### Development
 
-Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+``` bash
+# serve with hot reloading at localhost:3000
+$ npm run dev
+```
 
-## License
+Go to [http://localhost:3000](http://localhost:3000)
 
-GNU General Public License v3.0
+### Production
 
-## Donate
+``` bash
+# build for production and launch the server
+$ npm run build
+$ npm start
+```
 
-<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
-<p>Either way, your support is a way to thank me ❤️</p>
-<p align="center"><b>Thank you for your support!</b></p>
+### Generate
+
+``` bash
+# generate a static project
+$ npm run generate
+```
+
