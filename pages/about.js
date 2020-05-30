@@ -1,9 +1,7 @@
-import Layout from "../components/MyLayout";
-
 export default function About() {
   return (
-    <Layout>
+    <div>
       <p>Hakkında</p>
-    </Layout>
+    </div>
   );
 }
