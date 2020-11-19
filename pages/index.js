@@ -7,7 +7,6 @@ export default function Index() {
       <Head>
         <title>Ahmet Özçelik</title>
         <meta charset="UTF-8" />
-        <meta http-equiv="refresh" content="0;URL=https://ahmetozcelik.github.io/out/index.html"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         <link
